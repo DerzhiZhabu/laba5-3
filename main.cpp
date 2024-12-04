@@ -113,6 +113,7 @@ class Game{
         }
 
         print();
+        end_game();
     }
 
     void gen_predators(int count){

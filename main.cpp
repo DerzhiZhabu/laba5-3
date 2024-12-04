@@ -85,6 +85,14 @@ class Game{
         }
     }
 
+    void end_game(){
+        for(int i = 0; i < animals.length; i++){
+            delete animals[i];
+        }
+
+        animals.clear();
+    }
+
     public:
 
     Game(int n, int m, int t){
